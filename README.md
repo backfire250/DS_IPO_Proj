@@ -42,9 +42,9 @@ I wanted to standardize our predictor variables so that they would all have a va
 ## EDA (Exploratory Data Analysis)
 I looked at the correlation between my continuous variables and my target variable. Below are a couple highlights from my EDA.
 
-![]([https://github.com/backfire250/Alex_Portfolio/blob/main/images/ipo_ss_bp.png)
-![]([https://github.com/backfire250/Alex_Portfolio/blob/main/images/ipo_ss_hm.png)
-![]([https://github.com/backfire250/Alex_Portfolio/blob/main/images/ipo_ss_main.png)
+![](https://github.com/backfire250/Alex_Portfolio/blob/main/images/ipo_ss_bp.png)
+![](https://github.com/backfire250/Alex_Portfolio/blob/main/images/ipo_ss_hm.png)
+![](https://github.com/backfire250/Alex_Portfolio/blob/main/images/ipo_ss_main.png)
 
 ## Feature Selection
 After cleaning our dataset and doing some initial data analysis, we could move on to selecting features for our model. There weren't too many variables to choose from in this data set, but looking at the correlations between each of the features and the target variable, I was able to conclude that about 4 variables had a decent correlation with our target. I decided to do my exploratory data analysis around these 4 predictors, and ignore the variables for date, issue size, and issue price.
